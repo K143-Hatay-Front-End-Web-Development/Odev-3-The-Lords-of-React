@@ -1,0 +1,30 @@
+.left, .right{
+    line-height: 100%;
+    margin-top: 2rem;
+    font-family: 'Handlee';
+    font-size: 64px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.contents{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    list-style: none;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.header-svg{
+    width: 45%;
+}
+
