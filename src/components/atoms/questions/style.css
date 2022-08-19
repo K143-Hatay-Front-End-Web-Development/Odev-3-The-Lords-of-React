@@ -1,0 +1,12 @@
+.generator-span{
+    left: 5vw;
+    top: 14vw;
+    font-size: 5vw;
+    transform: rotate(355deg);
+    position:absolute;
+    width:18rem;
+    text-align: center;
+}
+.question-container{
+    width: 100%;
+}

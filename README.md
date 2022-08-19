@@ -1,10 +1,16 @@
-# Odev-3
+# Math-Game
 
-## Grup Üyeleri
-- [Ad] [Soyad]
-- [Ad] [Soyad]
+## Team Members
 
-## İçerik
+[Ahmet Salih Karagöz](https://github.com/krgzsalih)
 
--  [Figma ](https://www.figma.com/file/KBUZCtv1lw507YqSABRXwV/Matematik-%C3%96devi?node-id=0%3A1)
--  
+[Nurhak Keskin](https://github.com/sharp3614)
+
+[Vedat Eroğlu](https://github.com/vkeycode)
+
+Install packages
+```
+npm install
+```
+![math](/public/math.gif)
+
