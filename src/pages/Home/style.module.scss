@@ -1,0 +1,47 @@
+.Container {
+  padding: 6vh 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 90vw;
+  flex-direction: column;
+  justify-content: space-between;
+  footer{
+    Button{
+        background-image: url("../../assets/svgs/start-end-button.svg") ;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 2.5vw 10vw;
+    }
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    color: #ff0000;
+    width: 50%;
+    font-style: normal;
+    font-size: 3vw;
+    text-align: center;
+  }
+  section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    .Score {
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+    }
+    .Process {
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      margin-right: 3vw;
+    }
+  }
+  
+}
