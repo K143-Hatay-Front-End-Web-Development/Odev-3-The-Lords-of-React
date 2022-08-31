@@ -1,4 +1,6 @@
 # Math-Game
+# Live
+[Math Game LIVE](https://math-game-lordreact.netlify.app)
 
 ## Team Members
 
