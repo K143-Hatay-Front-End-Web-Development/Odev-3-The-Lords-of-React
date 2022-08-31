@@ -31,17 +31,18 @@ export const QuestionGenerate = (process) => {
   else if (process === "carpma") {         //-*-*-*-*-* ======> ÇARPMA
     let x = Math.ceil(Math.random() * 10),
       y = Math.ceil(Math.random() * 10),
-      z = x * y
-    values = { randomOne: x, randomTwo: y, operator: "x", answer: z }
+      z = x * y,
+      fakeAnswer1 = z + Math.ceil(Math.random() * 3),
+      fakeAnswer2 = z - Math.ceil(Math.random() * 3)
+      values = { randomOne: x, randomTwo: y, operator: "x", answer: z, fakeAnswer1: fakeAnswer1, fakeAnswer2 }
   }
   else if (process === "bolme") {          // -*-*-*-*-*-*-* ======= BÖLME
     let x = Math.ceil(Math.random() * (100 - 10 + 1)),
       y = Math.ceil(Math.random() * 9),
-      z = 0
-    if (x % y === 0) {
-      z = x / y
-      values = { randomOne: x, randomTwo: y, operator: "/", answer: z }
-    }
+      z = Math.floor(x / y),
+      fakeAnswer1 = z + Math.ceil(Math.random() * 3),
+      fakeAnswer2 = z - Math.ceil(Math.random() * 3)
+      values = { randomOne: x, randomTwo: y, operator: "/", answer: z, fakeAnswer1: fakeAnswer1, fakeAnswer2 }
   }
   return values
 }

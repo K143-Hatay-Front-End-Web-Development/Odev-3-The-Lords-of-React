@@ -12,5 +12,4 @@ Install packages
 ```
 npm install
 ```
-![math](/public/math.gif)
 
